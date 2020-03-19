@@ -1,0 +1,46 @@
+  We will now create a new contract, call it Contract1. We declare two variables, say 'amount' and 'value'. The first variable will hold
+the total money sent by contract executors while the second one will hold the contract value. When the executors execute the contract, the 
+'value' field will be modified. 
+  In constructor we set the values of variables as such:
+  constructor(uint initialAmount, uint initialValue) public {
+    amount = 0;
+    value = 100;
+  }
+  
+  To see the collected amount at one moment, we provide a public method, call it getAmount:
+  function getAmount() public view returns(uint) {
+    return amount;
+  }
+  
+  We do the same with 'value' field, we create a public method, say getValue:
+  function getValue() public view returns(uint) {
+    return value;
+  }
+  
+  We also need to create a contract method for clients to be able to send money to the contract creator:
+  function send(uint deposit) public {
+    value = value - deposit;
+    amount = amount + deposit;
+  }
+  
+  The full code for the contract we are discussing about:
+  contract Contract1 {
+    uint value;
+    uint amount;
+    constructor(uint initialAmount, uint initialValue) public {
+      amount = 0;
+      value = 100;
+    }
+    function getAmount() public view returns(uint) {
+      return amount;
+    }
+    function getValue() public view returns(uint) {
+      return value;
+    }
+    function send(uint deposit) public {
+      value = value - deposit;
+      amount = amount + deposit;
+    }
+  }
+  
+  
