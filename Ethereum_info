@@ -1,0 +1,27 @@
+What is ETHEREUM?
+
+Ethereum is an open-source software framework which is based on blockchain technology. Blockchain is a public ledger that keeps
+a shared history of all the transactions distributed across a vast network of users. Ethereum is the biggest decentralized
+software app. You can build smart contracts and decentralized applications without any downtime or any third-party interference.
+
+Why do you need it?
+
+CENTRALIZED systems are one of the most widespread models for software applications. This system directly controls the operation
+of the individual units and flow of information from a single center. In such a system, individuals are depended on the central
+power to send and receive information. Some issues that appear in a centralized system are:
+* single point of control & failure
+* it can be corrupt easily
+* performance bottleneck
+DECENTRALIZED applications never reply on a centralized backend, but they interact directly with a blockchain. 
+
+ETHEREUM KEY TERMS:
+- Currency issuance: it is mostly managed and monitored  by a country's central bank
+- Decentralized Autonomous: Decentralized Autonomous Organization is a digital organization which aims to operate without the 
+need for hierarchical management
+- Organizations(DAO): DAO is a combination of computer code, a blockchain, smart contracts, and people
+- Smart Contracts: it is digitally signed agreement between two or more parties which relies on a consensus system
+- Smart Property: the Ethreum Wallet is a gateway to decentralized applications on the Ethereum blockchain
+- Solidity: Solidity is the smart contact language used in Ethereum 
+- Transactions: A transaction is a message which is sent from one account to another account that may be the same or empty
+- Ethereum Virtual Machine: EVM is the runtimme environment for smart contracts; the running code inside the EVM does not 
+have any access to network, filesystem or other processes
